@@ -1,5 +1,10 @@
 .social__list{
     display: flex;
+    margin-right: 75px;
+}
+.social__list--thin-footer{
+    margin-right: 1px;
+     margin-top: 28px;
 }
 .social__element{
     margin-right: 10px;
@@ -11,3 +16,53 @@
 .social__element:last-child{
         margin-right: 0px;
 }
+.social__icon{
+    width: 20px;
+   height: 20px;
+   margin-right: 10px;
+   position: relative;
+}
+.social__icon:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url('../../project_content/css_sprites-2.png') -178px -10px;
+ }
+ .social__icon--fb::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url('../../project_content/css_sprites-2.png') -234px -10px;
+ }
+ .social__icon--tg::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url('../../project_content/css_sprites-2.png') -122px -10px;
+ }
+ .social__icon--inst::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url('../../project_content/css_sprites-2.png') -66px -10px;
+ }
