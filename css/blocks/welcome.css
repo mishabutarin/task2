@@ -7,10 +7,9 @@
     height: 100%;
     align-items: center;
     justify-content: center;
-    background: url(../../project_content/bg/top.png)center bottom / cover no-repeat #17191C;
+    background: url(../../project_content/bg/top.png) center bottom / cover no-repeat #17191C;
     mix-blend-mode: luminosity;
 box-shadow: inset 0px -46px 50px #17191C;
-
 }
 
 .welcome__logo{

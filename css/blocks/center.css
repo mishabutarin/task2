@@ -9,7 +9,7 @@
         transform: translatey(0);
     }
     20%{
-       transform: translatey(-35px);
+        transform: translatey(-35px);
     }
     35%{
         transform: translatey(0);
