@@ -1,0 +1,18 @@
+.controls__list{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+.controls__elem{
+   cursor: pointer;
+}
+.controls__checkbox:checked ~ .controls__tag{
+   background: #B9EAE4;
+}
+.controls__checkbox{
+   display: none;
+}
+.controls__item{
+margin-bottom: 10px;
+margin-right: 10px;
+}

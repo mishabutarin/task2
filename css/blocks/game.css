@@ -1,0 +1,55 @@
+.games__list{
+    display: flex;
+    flex-direction: column;
+}
+.game__item{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.game__item:last-child{
+    margin-top: 50px;
+}
+.game__content{
+    flex: 1;
+}
+.game__img{
+    width: 41%;
+    margin-right: 4%;
+    border-radius: 5px;
+    overflow: hidden
+
+}
+.game__img--90{
+    display: flex;
+    align-items: center;
+    background: #010101;
+    height: 333px;
+    width: 460px;
+}
+.game__card-title{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+.game__text{
+    font-size: 16px;
+    margin-bottom: 30px;
+    line-height: 1.7;
+}
+.game__more{
+border: 1px solid #8F00FF;
+box-sizing: border-box;
+border-radius: 5px;
+padding: 18px 40px;
+text-decoration: none;
+text-transform: uppercase;
+color: #8F00FF;
+font-size: 14px;
+font-weight: 700;
+display: inline-block;
+}
+.game__more:hover{
+    background: #8F00FF;
+    color: #fff;
+}

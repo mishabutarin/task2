@@ -1,0 +1,30 @@
+.description{
+    margin-bottom: 189px;
+}
+
+.description__text-section{
+
+    width: 637px;
+
+}
+
+.description__title{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.1;
+    margin-bottom: 18px;
+}
+.description__text{
+    font-size: 21px;
+    margin-bottom: 76px;
+}
+.description__btn-more{
+    display: inline-block;
+    font-size: 14px;
+    background:  #8F00FF;
+    border-radius: 5px;
+    padding: 18px 38px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}

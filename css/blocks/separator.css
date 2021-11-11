@@ -1,0 +1,14 @@
+.separator{
+    border: .5px solid green;
+    display: flex;
+   align-items: center;
+    min-height: 360px;
+    background: #17191C url(../../project_content/19629\ 1.png) right 20%  no-repeat;
+}
+.separator__content{
+    max-width: 40%;
+}
+.separator__text{
+    font-size: 48px;
+    font-weight: 700;
+}
