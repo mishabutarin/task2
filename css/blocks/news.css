@@ -84,4 +84,5 @@
 .news__look:hover{
     color: #ffff;
     background: #8F00FF;
+    transition: 0.3s;
 }

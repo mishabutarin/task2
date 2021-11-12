@@ -28,10 +28,10 @@ align-items: center;
 }
 .paginator__link--state-active{
     background: #8F00FF;
-
 }
 .paginator__link:hover{
     background: #8F00FF;
+    transition: 0.3s;
    
 }
 .paginator--games{

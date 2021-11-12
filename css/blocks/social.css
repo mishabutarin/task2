@@ -1,28 +1,37 @@
 .social__list{
+    margin-top: 9px;
     display: flex;
-    margin-right: 75px;
+}
+.social__list--game{
+    margin-top: 29px;
 }
 .social__list--thin-footer{
     margin-right: 1px;
      margin-top: 28px;
 }
 .social__element{
-    margin-right: 10px;
-}
-.social__link{
-    display: block;
-    text-decoration: none;
+    margin-right: 13px;
 }
 .social__element:last-child{
         margin-right: 0px;
 }
-.social__icon{
+
+.social__link{
+    display: block;
+    text-decoration: none;
     width: 20px;
    height: 20px;
    margin-right: 10px;
    position: relative;
+   
 }
-.social__icon:after {
+.social__link:hover{
+filter: brightness(200%);
+transition: 0.3s;
+
+}
+
+.social__link--vk:after {
     content: '';
     display: block;
     position: absolute;
@@ -33,7 +42,8 @@
     height: 36px;
     background: url('../../project_content/css_sprites-2.png') -178px -10px;
  }
- .social__icon--fb::after{
+ 
+ .social__link--fb::after{
     content: '';
     display: block;
     position: absolute;
@@ -44,7 +54,7 @@
     height: 36px;
     background: url('../../project_content/css_sprites-2.png') -234px -10px;
  }
- .social__icon--tg::after{
+ .social__link--tg::after{
     content: '';
     display: block;
     position: absolute;
@@ -55,7 +65,7 @@
     height: 36px;
     background: url('../../project_content/css_sprites-2.png') -122px -10px;
  }
- .social__icon--inst::after{
+ .social__link--inst::after{
     content: '';
     display: block;
     position: absolute;

@@ -3,14 +3,20 @@
     flex-wrap: wrap;
 }
 .partner__item{
+   
    margin-right: 7px;
    margin-bottom: 19px;
+}
+.partner__link:hover{
+    filter: grayscale(0%);
+    transition: 0.3s;
 }
 .partner__item:nth-child(4n + 1) {
     margin-right: 0;
 }
 
 .partner__link{
+    filter: grayscale(100%);
     text-decoration: none;
     display: flex;
     width: 270px;

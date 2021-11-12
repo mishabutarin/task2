@@ -52,4 +52,5 @@ display: inline-block;
 .game__more:hover{
     background: #8F00FF;
     color: #fff;
+    transition: 0.3s;
 }

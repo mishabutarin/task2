@@ -9,13 +9,40 @@ text-decoration: none;
 font-weight: bold;
 text-transform: uppercase;
 border: none;
-margin-right: 17px;
 cursor: pointer;
 margin-top: 11px;
 }
 
-.btn--color--black{
- background: #2B2B2B;
+.btn-form{
+    background: #8F00FF;
+    color: white;
+    display: inline-block;
+font-size: 14px;
+border-radius: 5px;
+padding: 18px 38px;
+text-decoration: none;
+font-weight: bold;
+text-transform: uppercase;
+border: none;
+margin-right: 17px;
+cursor: pointer;
+margin-top: 11px;
+}
+.btn-form:hover{
+    background: #741BBA;
+    transition: 0.3s;
+}
+.btn:hover{
+    background: #741BBA;
+    transition: 0.3s;
+}
+
+.btn-form--color--black{
+ background: #8E8E8E;
+}
+.btn-form--color--black:hover{
+    background: #2B2B2B;
+    transition: 0.3s;
 }
 
 .btms{

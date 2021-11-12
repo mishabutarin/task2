@@ -4,7 +4,8 @@
 }
 .logo__pic{
 display: block;
-        margin-right: 35px;
-    
     }
-   
+    .logo--footer--thin{
+    margin-top: 22px;
+        margin-right: 53px;
+    }

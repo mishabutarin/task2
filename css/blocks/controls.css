@@ -8,6 +8,7 @@
 }
 .controls__checkbox:checked ~ .controls__tag{
    background: #B9EAE4;
+   transition: 0.3s;
 }
 .controls__checkbox{
    display: none;
