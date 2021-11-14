@@ -2,7 +2,7 @@
     display: flex;
 }
 .menu__item{
-    margin-right: 62px;
+    margin-right: 66px;
 }
 .menu__item:hover{
 transition: 0.3s;

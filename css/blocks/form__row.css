@@ -30,6 +30,7 @@
 }
 .form__input--textarea{
     height: 232px;
+    resize: none; 
 }
 .form__controls--title{
     width: 40%;

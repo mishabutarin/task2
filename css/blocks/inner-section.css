@@ -1,5 +1,6 @@
 .inner-section {
-    padding: 66px 28px ;
+    padding: 67px 28px ;
+    margin-bottom: 4px;
 }
 .inner-section--bg--grey{
     background: #F4F5F5;
@@ -17,5 +18,5 @@
     margin-bottom: 57px;
 }
 .inner-section--review{
-    padding: 66px 28px ;
+    padding: 68px 28px ;
 }

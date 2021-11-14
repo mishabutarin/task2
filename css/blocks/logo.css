@@ -6,6 +6,9 @@
 display: block;
     }
     .logo--footer--thin{
-    margin-top: 22px;
+    margin-top: 16px;
         margin-right: 53px;
     }
+.logo__footer--main{
+    margin-right: 49px;
+}
